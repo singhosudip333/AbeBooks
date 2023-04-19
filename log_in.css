@@ -1,0 +1,44 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Raleway', sans-serif;
+}
+.sign_logo img{
+    width: 300px;
+}
+label{
+    font-weight: 600;
+}
+.entry{
+    font-size: 14px;
+}
+
+.entry{
+    border: 1px solid #bbb5b5;
+    border-radius: 10px;
+    padding: 20px 20px 10px 20px;
+}
+.log_in p{
+    font-size:  14px;
+    margin-top: 20px;
+}
+a{
+    font-weight: bold;
+}
+
+.footer{
+    padding: 20px ;
+    font-size: 12px;
+    text-align: center;
+    color: black;
+}
+
+.footer a{
+    color: black;
+}
+
+.footer_part{
+    border-top: 3px solid rgb(226, 222, 222);
+    margin-top: 10px;
+    background-color: #f1f2f6;
+}

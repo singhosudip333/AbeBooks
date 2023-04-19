@@ -1,0 +1,129 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>My Account</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1,
+            shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="my_account.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@200;300;400;500;600;700;800&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+
+    <section class="menu mb-4 p-2 border-bottom">
+        <div class="container-fluid">
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                <div class="col-xl-2">
+                    <div text-left>
+                        <img src="photos/abebooks-logo-com-removebg-preview.png" alt="">
+                    </div>
+                </div>
+                <div class="col-xl-6">
+                    <div class="input-group">
+                        <input type="search" class="form-control rounded"
+                            placeholder="Enter keyword,author,title or ISBN" aria-label="Search"
+                            aria-describedby="search-addon" />
+                        <button type="button" class="btn btn-primary ml-2">Search</button>
+                    </div>
+                </div>
+                <div class="col-xl-4 text-right">
+                    <button onclick="window.location.href='log_in.html';" type="button" class="btn btn-outline-success
+                        btn-sm">Sign In
+                        <i class="fa fa-sign-in" aria-hidden="true"></i>
+                    </button>
+                    <button onclick="window.location.href='my_account.html';" type="button" class="btn btn-outline-success
+                        btn-sm ml-1">My Account
+                        <i class="fa fa-user" aria-hidden="true"></i>
+                    </button>
+                    <button onclick="window.location.href='basket.html';" type="button" class="btn btn-outline-success
+                        btn-sm ml-1">Basket
+                        <i class="fa fa-shopping-basket" aria-hidden="true"></i>
+                    </button>
+                    <button onclick="window.location.href='help.html';" type="button" class="btn btn-outline-success
+                        btn-sm ml-1">Help
+                        <i class="fa fa-info-circle" aria-hidden="true"></i>
+                    </button>
+                </div>
+            </nav>
+        </div>
+    </section>
+
+    <div class="container mt-5">
+        <h1>My Personal Information</h1>
+        <table class="table table-bordered">
+            <tbody>
+                <tr>
+                    <td>Name:</td>
+                    <td>John Smith</td>
+                </tr>
+                <tr>
+                    <td>Email:</td>
+                    <td>john.smith@gmail.com</td>
+                </tr>
+                <tr>
+                    <td>Phone:</td>
+                    <td>123-456-7890</td>
+                </tr>
+                <tr>
+                    <td>Address:</td>
+                    <td>123 Main St, Anytown, USA</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <h1>My Purchases</h1>
+        <ul class="list-group">
+            <li class="list-group-item">
+                <div class="row">
+                    <div class="col-md-4">
+                        <img src="https://via.placeholder.com/150" alt="Product Image" class="img-fluid">
+                    </div>
+                    <div class="col-md-8">
+                        <h5>Product Name</h5>
+                        <p>Description of the product goes here.</p>
+                        <p>Price: $19.99</p>
+                        <p>Quantity: 1</p>
+                    </div>
+                </div>
+            </li>
+            <li class="list-group-item">
+                <div class="row">
+                    <div class="col-md-4">
+                        <img src="https://via.placeholder.com/150" alt="Product Image" class="img-fluid">
+                    </div>
+                    <div class="col-md-8">
+                        <h5>Product Name</h5>
+                        <p>Description of the product goes here.</p>
+                        <p>Price: $29.99</p>
+                        <p>Quantity: 2</p>
+                    </div>
+                </div>
+            </li>
+        </ul>
+    </div>
+
+    <!-- Optional JavaScript -->
+    <script src="https://use.fontawesome.com/3aa1570a43.js"></script>
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous">
+    </script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
+    </script>
+</body>
+
+</html>

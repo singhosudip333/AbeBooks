@@ -1,0 +1,41 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Raleway', sans-serif;
+}
+.logo_img img{
+    margin: auto;
+}
+.bg-light {
+    background-color: #f1f2f6!important;
+}
+.menu{
+    background-color:#f1f2f6 ;
+}
+.form-label{
+    font-weight: bold;
+    font-size: 14px;
+}
+.search_text p{
+    color: red;
+    font-weight: bold;
+    font-size: 13px;
+}
+.search_area{
+    padding: 20px;
+    border: 1px solid #b8b2b2;
+    border-radius: 15px;
+    background-color: #F5F9FA;
+}
+.carousel-inner{
+    border-radius: 20px;
+}
+.carousel-caption{
+    border-radius: 10px;
+    background-color: #95a5a6;
+    color: black;
+    padding: 10px 5px;
+}
+.card img{
+    height: 350px;
+}
